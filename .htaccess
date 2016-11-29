@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^refills\.miramarmedicine\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.refills\.miramarmedicine\.com$
+RewriteRule ^/?$ "http\:\/\/miramarmedicine\.com\/refills" [R=301,L]
+

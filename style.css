@@ -1,0 +1,445 @@
+/* 
+HEALTHCIRCLE© Refill Request From
+Developed by: RogueDzines.com
+Client: Mirimarmedicine.com
+Copyright Miramarmedicine.com (C) 2012 All Rights Reserved. 
+All graphics & coding Copyright HealthCircle Unless Otherwise Stated
+*/
+
+html, body, acrpnym, fieldset, blockquote, ul, li, label, legend, table, caption,span{
+	margin:0;
+	padding:0;
+	border:none;
+	vertical-align:baseline;
+}
+
+*{margin:0; padding:0;}
+
+body{
+	margin:0;
+	padding:0;
+	text-align:center;
+	font:12px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#333;
+	background:#f3f3f3 url(images/bg.png) repeat;
+}
+
+a img{
+	border:none;
+}
+
+a{
+	color:#ae935d;
+	text-decoration:underline;
+}
+#container{
+	width:930px;
+	margin:0 auto;
+	text-align:left;
+}
+
+#clipboard{
+}
+
+.clipboardtop{
+	background:url(images/form_clip_top.png) no-repeat;
+	height:408px;
+}
+
+.logo{
+	width:141px;
+	float:left;
+	margin-top:212px;
+	margin-left:127px;
+}
+
+.let_head{
+	width:630px;
+	float:left;
+	margin-top:246px;
+	margin-left:20px;
+	
+}
+
+.let_head h2{
+	font:36px/44px 'DroidSansBold',Arial,sans-serif;
+	color:#000;
+	letter-spacing:0;
+	text-shadow:#fff 1px 1px 1px;
+	display:block;
+}
+.intro h1{
+	margin:10px 0px;
+	font:16px/18px 'DroidSansRegular',Arial,sans-serif;
+	color:#654f23;
+	text-shadow:#fff 1px 1px 1px;
+}
+.intro{
+	background:#fff;
+	padding:10px;
+	margin:10px 20px 10px 0;
+	width:520px;
+	opacity:0.6;
+	border-right:4px solid #e8e8e8;
+	border-bottom:4px solid #e8e8e8;
+	filter:alpha(opacity=60); /* FOR IE8 and earlier */
+}
+p.subtext{
+	font:13px/16px 'DroidSansRegular',Arial,sans-serif;
+	color:#4c4c4c;
+	background:url(images/letheaddiv.png) no-repeat -10% 75%;
+	padding-bottom:8px;
+	text-transform:capitalize;
+}
+.clipboard_content{
+	background:url(images/form_content_bg.png) repeat-y;
+	padding:20px 78px 10px 90px;
+}
+
+.clipboard_footer{
+	background:url(images/form_footer.png) no-repeat;
+	height:115px;
+	text-align:right;
+	padding-top:22px;
+	padding-right:87px;
+	font:12px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-shadow:#fff 1px 1px 1px;
+	text-transform:lowercase;
+	color:#ae935d;
+}
+
+form {
+    margin: 10px;
+	padding:10px;
+}
+
+form h2 {
+    color: #3bbced;
+    font-size: 80%;
+    font-weight: bold;
+    margin: 0 0 5px 10px;
+}
+
+fieldset div {
+	margin:0 0 10px;
+}
+
+fieldset div textarea, fieldset div input, fieldset div select{
+	display:block;
+	line-height:1;
+	margin:0;
+	border:1px solid #e8d5b1;
+	-moz-border-radius:4px;
+	background:#fff url(images/inputbg.png) repeat-x;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	color:#6f5c37;
+}
+
+fieldset div select{
+	padding:5px;
+	width:291px;
+}
+fieldset legend span{
+	color:#000;
+	display:block;
+	margin:20px 0;
+	width:560px;
+	padding-bottom:20px;
+}
+fieldset input{
+	width:300px;
+	padding:8px;
+}
+
+label{
+	display:block;
+	
+}
+
+fieldset div select#state{
+	width:200px;
+}
+
+fieldset div input#pillcount{
+	width:100px;
+}
+
+fieldset div input#minitial{
+	width:60px;
+}
+fieldset div input#zip, fieldset div input#strengthbox{
+	width:100px;
+}
+form#refillrequest{
+	margin:0px 0px 0px 110px;
+}
+
+p.fieldsmissing{
+	margin-left:120px;
+	font:15px/19px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+legend{
+	font:14px/18px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.clearfix:after{
+	content:".";
+	display:block;
+	visibility:hidden;
+	clear:both;
+	height:0;
+}
+input, textarea{
+	display:block;
+}
+fieldset div textarea{
+	width:307px;
+	padding:6px 5px;
+	height:89px;
+}
+
+fieldset label abbr{
+	display:block;
+	padding:0;
+}
+fieldset div label {
+	font:14px/17px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #333;
+	float:left;
+	width:180px;
+	margin:0px;
+	line-height:1.1;
+	text-shadow:#fff 1px 1px 1px;
+}
+
+fieldset fieldset.group{
+	margin-left:0px;
+	color:#333;
+	padding:0;
+}
+fieldset fieldset.group#dob-section{
+	margin-left:175px;
+	
+}
+fieldset fieldset.group div{
+	background:none;
+	float:left;
+	margin:0px 0px 5px 5px;
+	padding-left:0px;
+}
+
+fieldset#dob-section div select#month{
+	width:108px;
+	
+}
+
+fieldset.group#dob-section legend span{
+	background:none;
+	display:block;
+	line-height:1.1em;
+	margin:0px 20px 0 -175px;
+	padding:0;
+	width:140px;
+	text-shadow:#fff 1px 1px 1px;
+	position:absolute;
+}
+fieldset#dob-section div select{
+	width:85px;
+}
+fieldset#dob-section div label{
+	text-indent:-1000em;
+	width:0;
+}
+
+fieldset#strength label{
+	padding-top:30px;
+	padding-bottom:10px;
+}
+
+fieldset fieldset#strength label span {
+	text-indent:-1000em;
+	width:0;
+}*/
+
+/*fieldset fieldset#strength label#strength-mcg {
+	font-weight:bold;
+	display:block;
+	margin: -35px 5px 10px 190px;
+}
+
+input#strength-mcg {
+	font-weight:bold;
+	display:block;
+	margin: -90px 5px 10px 90px;
+}
+
+
+fieldset fieldset#strength label#strength-mg {
+	font-weight:bold;
+	display:block;
+	margin: -25px 5px 10px 180px;
+	width:20px;
+	position:absolute;
+}
+fieldset fieldset#strength input#strength-mg {
+	font-weight:bold;
+	display:block;
+	margin: -15px 5px 0px 210px;
+	width:20px;
+	position:absolute;
+}
+fieldset fieldset#strength label#strength-mcg {
+	font-weight:bold;
+	display:block;
+	margin: -25px 5px 10px 290px;
+	width:20px;
+	position:absolute;
+}
+fieldset fieldset#strength input#strength-mcg {
+	font-weight:bold;
+	display:block;
+	margin: -15px 5px 0px 330px;
+	width:20px;
+	position:absolute;
+}
+*/
+.leftclear{
+	clear:left;
+}
+
+#strength{
+width:120px;
+
+}
+
+fieldset#strength select#strength{
+	margin-left:310px;
+	margin-top:20px;
+	padding:6px;
+	position:absolute;
+}
+fieldset#strength input#strengthbox{
+	margin-left:180px;
+	margin-top:20px;
+	position:absolute;
+}
+.required{
+	color:#ce1d1d;
+	margin:0 0 5px 0;
+	display:block;
+	font:14px/18px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-shadow:#fff 1px 1px 1px;
+}
+
+.warning{
+	color:#ce1d1d;
+	font-size:11px;
+	background:url(images/error.png) no-repeat 0 60%;
+	padding-left:18px;
+	padding-top:3px;
+}
+/* reset focus style */
+
+.warningbold p{
+	
+	font:14px/18px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#ce1d1d;
+	background:url(images/error.png) no-repeat 0 0;
+	padding-left:18px;
+}
+
+.warningbold{
+	background:#f9f7f2;
+	padding:10px;
+	margin:5px 20px 10px 200px;
+	width:520px;
+	border-right:4px solid #f0e8d9;
+	border-bottom:4px solid #f0e8d9;
+}
+*:focus{outline:none;}
+
+/* ul and li elements */
+
+ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	list-style-position:outside;
+}
+
+li{
+	padding:8px;
+}
+
+li:first-child, li:last-child{
+	border-bottom:1px solid #333;
+}
+
+
+#send, #clear{
+	float:left;
+}
+
+#send{
+	margin-left:175px;
+}
+input#send,input#clear{
+	background:url(images/submitbtn.png) no-repeat;
+	width:132px;
+	height:55px;
+	padding-top:10px;
+	padding-left:13px;
+	border:none;
+	font:16px/18px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#a6874a;
+	text-shadow:#fff 1px 1px 1px;
+}
+
+input#send:hover,input#clear:hover{
+	background:url(images/submitbtn_hover.png) no-repeat;
+	width:132px;
+	height:55px;
+	padding-top:10px;
+	padding-left:13px;
+	border:none;
+	font:16px/18px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#a6874a;
+	text-shadow:#fff 1px 1px 1px;
+}
+span{
+	display:block;
+}
+
+@font-face {
+    font-family: DroidSansRegular;
+    src: url(fonts/DroidSans-webfont.eot);
+    src: url(fonts/DroidSans-webfont.eot?#iefix) format(embedded-opentype),
+         url(fonts/DroidSans-webfont.woff) format(woff),
+         url(fonts/DroidSans-webfont.ttf) format(truetype),
+         url(fonts/DroidSans-webfont.svg#DroidSansRegular) format(svg);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: DroidSansBold;
+    src: url(fonts/DroidSans-Bold-webfont.eot);
+    src: url(fonts/DroidSans-Bold-webfont.eot?#iefix) format(embedded-opentype),
+         url(fonts/DroidSans-Bold-webfont.woff) format(woff),
+         url(fonts/DroidSans-Bold-webfont.ttf) format(truetype),
+         url(fonts/DroidSans-Bold-webfont.svg#DroidSansBold) format(svg);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.selectstyle{
+}
+
+div label em{
+	font-size:10px;
+	display:block;
+	color:#ce1d1d;
+}
