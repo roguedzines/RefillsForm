@@ -2,8 +2,8 @@
 /* 
 HealthCircle | Miramarmedicine.com
 Refill Request Form 
-Developer: Lee
-Developer email: lee@thischick.com
+Developer: Li-Shann Tomchik
+Developer email: lishann.tomchik@gmail.com
 (c) Copyright 2012 Miramarmedicine.com
 */
 
